@@ -1,0 +1,14 @@
+–– Pkl Error ––
+Cannot analyze relative module URI `foo.pkl`.
+
+x | result = analyze.importGraph(Set("foo.pkl"))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+at analyzeRelativeModuleUri#result (file:///$snippetsDir/input/errors/analyzeRelativeModuleUri.pkl)
+
+xxx | text = renderer.renderDocument(value)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+at pkl.base#Module.output.text (pkl:base)
+
+xxx | bytes = text.encodeToBytes("UTF-8")
+              ^^^^
+at pkl.base#Module.output.bytes (pkl:base)
